@@ -1,16 +1,6 @@
 # Custom_review
 Review of an amazon store product using webscrapping to collect data and machine learning to analyze that data.
 
-## Table of Contents
-<p align="center">
-    1. [Status](#Status)
-    2. [Features](#Features)
-    3. [Prerequisite](#Prerequisite)
-    4. [Run](#Run)
-    5. [Technologies](#Technologies)
-    6. [Author](#Author)
-</p>
-
 ### Status
 
 <h4 align="center"> 
@@ -62,12 +52,5 @@ The following tools were used in building the project:
 
 
 ### Author
----
 
-<a href="https://github.com/MateusFauri">
- <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/62532715?v=4" width="100px;" alt=""/>
- <br />
- <sub><b>Thiago Marinho</b></sub></a> 
-
-
-By Mateus Fauri 👋🏽 
+By [Mateus Fauri](https://github.com/MateusFauri) 👋🏽 
