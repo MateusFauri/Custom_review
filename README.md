@@ -50,6 +50,7 @@ $ pip install selenium
 
 # Just run:
 $ python main.py
+```
 
 ### Technologies
 
