@@ -10,7 +10,7 @@ Review of an amazon store product using webscrapping to collect data and machine
 ### Features
 
 - [x] Collect Data from an amazon product
-- [ ] Create a sentiment analyzer for the data
+- [x] Use a sentiment analyzer for text in the data
 - [ ] Create charts to analyze data
 - [ ] The user enters the URL of an amazon produt
 
@@ -23,7 +23,6 @@ Before strarting, you will need to have the followings tools installed:
 Not required, but advisable:
 
 venv, pyenv
-
 
 ### Run
 

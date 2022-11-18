@@ -22,7 +22,6 @@ def checking_next(driver):
             return False
     finally:
         next = driver.find_elements(By.XPATH, Xpath)
-        print(next[1].get_attribute('class').find("a-disabled"))
         if next[1].get_attribute('class').find("a-disabled") == -1:
             return True
         return False
@@ -31,7 +30,7 @@ driver = webdriver.Chrome()
 driver.get(URL)
 
 with open('comments.txt', 'w', encoding="utf-8") as f:
-
+    f.write("Frases\n")
     try:
         next_xpath = "//li[@class='a-last']/a[contains(text(), 'Próximo')]"
         comment_xpath = "//div[@class='a-row a-spacing-small review-data']/span"
