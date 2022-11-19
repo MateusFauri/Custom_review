@@ -1,4 +1,4 @@
-# Custom_review
+# Customers_Review
 Review of an amazon store product using webscrapping to collect data and machine learning to analyze that data.
 
 ### Status
