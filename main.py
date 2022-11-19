@@ -31,10 +31,11 @@ driver = webdriver.Chrome()
 driver.get(URL)
 
 with open('comments.txt', 'w', encoding="utf-8") as f:
-    f.write("Frases\n")
+    f.write("Phrase\n")
     try:
         next_xpath = "//li[@class='a-last']/a[contains(text(), 'Próximo')]"
         comment_xpath = "//div[@class='a-row a-spacing-small review-data']/span"
+        
         wait = WebDriverWait(driver, DRIVER_TIME)
 
         while True:
@@ -62,7 +63,7 @@ with open('comments.txt', 'w', encoding="utf-8") as f:
     finally:
         driver.quit()
 
-DIR = "E:\Python\API\custom_review"
-file_name = "comments"
+DIR = "E:\Python\API\Customers_review"
+file_name = "comments.txt"
 
 text_classifier.get_file(DIR, file_name)
