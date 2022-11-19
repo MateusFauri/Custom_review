@@ -131,3 +131,6 @@ dmypy.json
 #comments
 comments.txt
 comments_with_sentiment.txt
+
+#text_classifier test
+text_classifier/*

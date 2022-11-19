@@ -18,11 +18,8 @@ Review of an amazon store product using webscrapping to collect data and machine
 
 Before strarting, you will need to have the followings tools installed:
 
-[Git](https://git-scm.com), [python](https://www.python.org/).
+[Git](https://git-scm.com), [python](https://www.python.org/), [pyenv](https://github.com/pyenv/pyenv) , [pipenv](https://pypi.org/project/pipenv/)
 
-Not required, but advisable:
-
-venv, pyenv
 
 ### Run
 
@@ -31,13 +28,16 @@ venv, pyenv
 $ git clone <git@github.com:MateusFauri/Custom_review.git>
 
 # Access project folder in terminal/cmd
-# If you are using venv, use:
-$ python -m venv some_folder_name
+# With pipenv and pyenv installed, do
+$ penv local 3.11
 
-# After activate your venv, install selenium using:
-$ pip install selenium
+# And now is just run
+$ pipenv install --dev
 
-# Just run:
+# After done, use 
+$ pipenv shell
+
+# In pipenv shell, run:
 $ python main.py
 ```
 
@@ -46,8 +46,14 @@ $ python main.py
 The following tools were used in building the project:
 
 - Pyenv
+- Pipenv
 - Python
 - Selenium
+- Pandas
+- Numpy
+- Seaborn
+- Torch
+- Transformers
 
 
 ### Author

@@ -1,4 +1,5 @@
 import time
+import text_classifier
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
@@ -61,3 +62,7 @@ with open('comments.txt', 'w', encoding="utf-8") as f:
     finally:
         driver.quit()
 
+DIR = "E:\Python\API\custom_review"
+file_name = "comments"
+
+text_classifier.get_file(DIR, file_name)
